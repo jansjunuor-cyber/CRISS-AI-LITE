@@ -13,10 +13,6 @@
     </p>
  
  
- 
-
-
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&random=false&width=435&lines=THIS+IS+CRISS VMD+MADE+IN+TANZANIA" alt="Typing SVG" /></a>
 
 
 
@@ -51,7 +47,7 @@
 
 `If You Have a Heroku Account`
 
-<a align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/criss-vevo/CRISS-VMD/tree/main"> <img src="https://img.shields.io/badge/DEPLOY%20NOW-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<a align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/criss-vevo/CRISS-AI-MIN-BOT/tree/main"> <img src="https://img.shields.io/badge/DEPLOY%20NOW-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
