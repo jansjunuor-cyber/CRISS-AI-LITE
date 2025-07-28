@@ -3,7 +3,7 @@
   "description":"Best whatsapp bot developed by criss vevo ",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://files.catbox.moe/hhwdau.jpeg",
-  "repository":"https://github.com/criss-vevo/CRISS-VMD",
+  "repository":"https://github.com/criss-vevo/CRISS-AI-MIN-BOT",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -134,7 +134,7 @@
   "formation": {
     "worker": {
       "quantity": 1,
-      "size": "standard-2x"
+      "size": "basic"
     }
   },
   "addons": [
