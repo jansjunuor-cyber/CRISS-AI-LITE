@@ -9,7 +9,7 @@
 </p>
 <p align="center"> 
   <a href="https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g">
-    <img alt=Support height="390" src="https://files.catbox.moe/hhwdau.jpeg"> 
+    <img alt=Support height="390" src="https://res.cloudinary.com/dgy2dutjs/image/upload/v1751624587/url.crissvevo.co.tz/IMG_2353_fze42l.jpg"> 
     </p>
  
  
