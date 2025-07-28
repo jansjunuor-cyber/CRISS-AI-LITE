@@ -1,12 +1,12 @@
 {
-  "name": "zokou-md",
+  "name": "CRISS-AI-MIN-BOT",
   "version": "3.1.2",
   "description": "Best WhatsApp Bot",
-  "main": "index.js",
+  "main": "min-bot.js",
   "type": "commonjs",
   "scripts": {
-    "start": "pm2 start index.js --attach --name zokou",
-    "zokou": "pm2 start index.js --attach --name zokou",
+    "start": "pm2 start min-bot.js --attach --name zokou",
+    "zokou": "pm2 start min-bot.js --attach --name zokou",
     "stop": "pm2 stop zokou"
   },
   "keywords": [
