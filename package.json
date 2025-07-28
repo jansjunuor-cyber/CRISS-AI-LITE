@@ -5,9 +5,9 @@
   "main": "min-bot.js",
   "type": "commonjs",
   "scripts": {
-    "start": "pm2 start min-bot.js --attach --name zokou",
-    "zokou": "pm2 start min-bot.js --attach --name zokou",
-    "stop": "pm2 stop zokou"
+    "start": "pm2 start min-bot.js --attach --name CRISS-AI-MIN-BOT",
+    "zokou": "pm2 start min-bot.js --attach --name CRISS-AI-MIN-BOT",
+    "stop": "pm2 stop CRISS-AI-MIN-BOT"
   },
   "keywords": [
     "bot",
