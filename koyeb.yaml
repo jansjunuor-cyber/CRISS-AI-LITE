@@ -1,6 +1,6 @@
-name: lite-xd
+name: CRISS-AI-LITE
 services:
-  - name: lite-xd-service
+  - name: CRISS-AI-LITE-service
     type: web
     ports:
       - 5000
