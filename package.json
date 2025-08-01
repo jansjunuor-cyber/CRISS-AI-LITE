@@ -1,9 +1,9 @@
 
 
 {
-  "name": "lite-xd",
+  "name": "CRISS-AI-LITE",
   "version": "0.0.5",
-  "description": "A WhatsApp Bot Created By Malvin King",
+  "description": "A WhatsApp Bot Created By criss vevo",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name lite",
@@ -11,7 +11,7 @@
     "restart": "pm2 restart lite"
   },
   "dependencies": {
-       "@whiskeysockets/baileys": "npm:baileys-pro@latest",
+    "@whiskeysockets/baileys": "^6.7.18",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@dark-yasiya/yt-dl.js": "1.0.5",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
