@@ -1,21 +1,7 @@
-FROM node:20-slim
-
-RUN apt-get update && \
-  apt-get install -y \
-  ffmpeg \
-  imagemagick \
-  webp \
-  git && \
-  apt-get upgrade -y && \
-  rm -rf /var/lib/apt/lists/*
-
-WORKDIR /root/zokou
-
-COPY package.json .
-RUN npm install
-
+FROM node:lts-buster
+WORKDIR /app
+COPY package*.json ./
+RUN npm install && npm install -g qrcode-terminal pm2
 COPY . .
-
-EXPOSE 8000
-
-CMD ["npm","start"]
+EXPOSE 3000
+CMD ["npm", "start"]

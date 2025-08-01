@@ -1,72 +1,24 @@
+# Lite Xd – Bot Base Script
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-  
+**Repository:** [https://github.com/XdKing2/LITE-XD](https://github.com/XdKing2/LITE-XD)
 
+---
 
-<p align="center">                                                  𝐂𝐑𝐈𝐒𝐒 𝐕𝐄𝐕𝐎-𝐌𝐃 
-  
+## 🤖 What is This?
 
-</p>
-<p align="center"> 
-  <a href="https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g">
-    <img alt=Support height="390" src="https://res.cloudinary.com/dgy2dutjs/image/upload/v1751624587/url.crissvevo.co.tz/IMG_2353_fze42l.jpg"> 
-    </p>
- 
- 
- 
+This is the **bot base script**, created by Malvin King.  
+It serves as a foundation for building bots that handle session IDs and automate sharing links.
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+The **session ID link** below is provided as a reference and example to use with the bot:
 
+**Session Link Reference:**  
+[https://lite-pair.onrender.com/pair](https://lite-pair.onrender.com/pair)
 
-#### SETUP 
+---
 
+SESSION_ID REPO BASE
+https://github.com/XdKing2/malvin-pair 
 
-[`FORK`](https://github.com/criss-vevo/CRISS-VMD/fork)
+## 🚀 Getting Started
 
-
- 
-
-
-[`PAIRING CODE`](https://criss-md-3.onrender.com/pair)
- 
-
-
-[`SCAN QR CODE`](https://criss-md-3.onrender.com/qr)
-
-
-
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-
-
-#### DEPLOY TO HEROKU 
-`If You Don't Have An Account On Heroku`
-
-<a align="center"><a href="https://signup.heroku.com">
- <img src="https://img.shields.io/badge/Create%20Account%20Now-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
-
-`If You Have a Heroku Account`
-
-<a align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/criss-vevo/CRISS-AI-MIN-BOT/tree/main"> <img src="https://img.shields.io/badge/DEPLOY%20NOW-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
-
-
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-
-
-**❖ FOR SUPPORT ❖**
- 
-Stay Connected With The Uatest Updates By
-   <br>
-
-<a><img src='https://i.imgur.com/LyHic3i.gif'/>
-
-<a href="https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g"><img src="https://img.shields.io/badge/%F0%9F%8E%89%20ᴊᴏɪɴ%20ᴏᴜʀ%20ᴡʜᴀᴛsᴀᴘᴘ%20ᴄʜᴀɴɴᴇʟ-red" alt="🔰 ᴊᴏɪɴ ᴍʏ ᴡʜᴀᴛsᴀᴘᴘ ɢʀᴏᴜᴘ ғᴏʀ ᴜᴘᴅᴀᴛᴇ 🔰" width="300"></a>
-
-
-<a><img src='https://i.imgur.com/LyHic3i.gif'/>
-
-<a href="https://www.youtube.com/@criss-vevo"><img src="https://img.shields.io/badge/%F0%9F%8E%89%20ᴊᴏɪɴ%20ᴏᴜʀ%20ʏᴏᴜᴛᴜʙᴇ%20ᴄʜᴀɴɴᴇʟ-blue" alt="🔰 ᴊᴏɪɴ ᴍʏ ʏᴏᴜᴛᴜʙᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇ 🔰" width="300"></a>
-
-
-
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
