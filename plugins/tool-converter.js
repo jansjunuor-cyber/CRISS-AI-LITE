@@ -35,7 +35,7 @@ lite({
         // Send result
         await client.sendMessage(from, {
             image: imageBuffer,
-            caption: "> XdKing2 is tha best",
+            caption: "> Criss Ai Lite is the best",
             mimetype: 'image/png'
         }, { quoted: message });
 
@@ -69,7 +69,7 @@ lite({
 
     if (match.quoted.seconds > 300) {
         return await client.sendMessage(from, {
-            text: "⏱️ Media too long (max 5 minutes)"
+            text: "⏱️ Media too long (max 1 minutes)"
         }, { quoted: message });
     }
 
