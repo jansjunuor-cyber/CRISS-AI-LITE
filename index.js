@@ -68,7 +68,7 @@ setInterval(clearTempDir, 5 * 60 * 1000)
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
   if (!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-  const sessdata = config.SESSION_ID.replace("CRISS-AI-", '')
+  const sessdata = config.SESSION_ID.replace("lite~", '')
   const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
   filer.download((err, data) => {
     if (err) throw err
@@ -123,21 +123,23 @@ async function connectToWA() {
           console.log('[ ✔ ] Plugins installed successfully ✅')
           console.log('[ 🪀 ] Bot connected to WhatsApp 📲')
 
-          let up = `*╭─────────────━┈⊷*
-*│ ᴄʀɪss-ᴀɪ ᴄᴏɴɴᴇᴄᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟ*
-*╰─────────────━┈⊷*
+          let up = `*Hᴇʟʟᴏ ᴛʜᴇʀᴇ ʟɪᴛᴇ xᴅ ᴄᴏɴɴᴇᴄᴛᴇᴅ! 👋🏻* 
 
-*╭─────────────━┈⊷*
-*│ᴄʀɪss ᴀɪ ɪs ᴏɴʟɪɴᴇ*
-*│ᴘʀᴇғɪx : [${config.PREFIX}*]
-*│ᴍᴏᴅᴇ :[ ${config.MODE}*]
-*│ᴏᴡɴᴇʀ: ᴄʀɪss ᴠᴇᴠᴏ*
-*╰─────────────━┈⊷*
+*ᴋᴇᴇᴘ ᴏɴ ᴜsɪɴɢ ᴍᴀʟᴠɪɴ ᴍᴏᴅs🚩* 
 
-*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟᴏʀᴅ ᴄʀɪss ᴠᴇᴠᴏ*`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/egligh.jpg` }, caption: up })
+> sᴜʙsᴄʀɪʙᴇ ʏᴛ ᴄʜᴀɴɴᴇʟ ғᴏʀ ᴛᴜᴛᴏʀɪᴀʟs
+https://youtube.com/@malvintech2
 
-          const channelJid = "120363417599637828@newsletter"
+- *ʏᴏᴜʀ ʙᴏᴛ ᴘʀᴇғɪx: ➡️[ . ]*
+> - ʏᴏᴜ ᴄᴀɴ ᴄʜᴀɴɢᴇ ᴜʀ ᴘʀᴇғɪx ᴜsɪɴɢ ᴛʜᴇ .ᴘʀᴇғɪx ᴄᴏᴍᴍᴀɴᴅ
+
+> ᴅᴏɴᴛ ғᴏʀɢᴇᴛ ᴛᴏ sʜᴀʀᴇ, sᴛᴀʀ & ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ ⬇️ 
+https://github.com/XdKing2/LITE-XD
+
+> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴋɪɴɢ 🇿🇼`;
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/lm4a0b.jpg` }, caption: up })
+
+          const channelJid = "120363402507750390@newsletter"
           try {
             await conn.newsletterFollow(channelJid)
             console.log(`Successfully followed channel: ${channelJid}`)
@@ -807,7 +809,7 @@ if (!isReact && config.CUSTOM_REACT === 'true') {
   }
   
   app.get("/", (req, res) => {
-  res.send("CRISS-AI-LITE STARTED ✅");
+  res.send("LITE-XD STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
