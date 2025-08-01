@@ -2,20 +2,20 @@
   "name": "LITE-XD",
   "description": "Javascript WhatsApp bot made by ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ",
   "logo": "https://files.catbox.moe/qumhu4.jpg",
-  "keywords": ["MALVIN-XD","LITE-XD"],
+  "keywords": ["CRISS-AI","LITE"],
   "success_url": "/",
 
     "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "Must Start with 'lite~'",
+      "description": "Must Start with 'CRISS-AI-LITE'",
       "required": true,
       "value": ""
     },
       "BOT_NAME": {
         "description": "write here your bot name.",
         "required": true,
-        "value": "ʟɪᴛᴇ-xᴅ"      
+        "value": "CRISS-AI-LITE"      
     },  
     "MODE": {
       "description": "Set private/public/inbox/groups",
@@ -32,18 +32,18 @@
     "OWNER_NAME": {
       "description": "Put Owner Name Here",
       "required": true,
-      "value": "ᴍᴀʟᴠɪɴ ᴋɪɴɢ"
+      "value": "CRISS VEVO"
     },
     "OWNER_NUMBER": {
       "description": "Put only one Owner Number Here",
       "required": true,
-      "value": "263780166288"
+      "value": "255766263739"
     },
     
     "PRESENCE": {
       "description": "Put online/typing/recording/unavailable",
-      "required": true,
-      "value": "online"
+      "required": false,
+      "value": ""
     }
 
 },
