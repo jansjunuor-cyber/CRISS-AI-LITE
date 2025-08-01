@@ -59,7 +59,7 @@ lite({
     saveWarnings();
 
     const warnCount = warnings[from][sender];
-    const limit = parseInt(config.LINK_WARN_LIMIT || 3);
+    const limit = parseInt(config.LINK_WARN_LIMIT || 2);
 
     const senderName = participants.find(p => p.id === sender)?.notify || sender.split('@')[0];
     await conn.sendMessage(from, {
