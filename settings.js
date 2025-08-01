@@ -7,12 +7,12 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
     SESSION_ID: process.env.SESSION_ID || "",
-    // add your Session Id make sure it starts with lite~
+    // add your Session Id make sure it starts with CRISS-AI-LITE~
 
     PREFIX: process.env.PREFIX || ".",
     // add your prefix for bot
 
-    BOT_NAME: process.env.BOT_NAME || "ʟɪᴛᴇ-xᴅ",
+    BOT_NAME: process.env.BOT_NAME || "CRISS-AI-LITE",
     // add bot name here for menu
 
     MODE: process.env.MODE || "public",
@@ -20,7 +20,7 @@ module.exports = {
 
     LINK_WHITELIST: "youtube.com,github.com",
 
-    LINK_WARN_LIMIT: 3, // Number of warnings before action
+    LINK_WARN_LIMIT: 2, // Number of warnings before action
 
     LINK_ACTION: "kick", // "kick", "mute", or "none"
 
@@ -33,10 +33,10 @@ module.exports = {
     AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
     // make true if you want auto reply on status 
 
-    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY MALVIN XD 😆*",
+    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY CRISS-AI-LITE 😆*",
     // set the auto reply message on status reply  
 
-    WELCOME: process.env.WELCOME || "true",
+    WELCOME: process.env.WELCOME || "false",
     // true if want welcome and goodbye msg in groups 
 
     ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
@@ -48,23 +48,23 @@ module.exports = {
     MENTION_REPLY: process.env.MENTION_REPLY || "false",
     // make true if want auto voice reply if someone mention you 
 
-    MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/lm4a0b.jpg",
+    MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/egligh.jpg",
     // add custom menu and mention reply image url
 
-    ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/lm4a0b.jpg",
+    ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/egligh.jpg",
     // add img for alive msg
 
     LIVE_MSG: process.env.LIVE_MSG || 
 `> ʙᴏᴛ ɪs sᴘᴀʀᴋɪɴɢ ᴀᴄᴛɪᴠᴇ ᴀɴᴅ ᴀʟɪᴠᴇ
 
-ᴋᴇᴇᴘ ᴜsɪɴɢ ✦ʟɪᴛᴇ xᴅ✦ ғʀᴏᴍ ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ ɪɴᴄ⚡
+ᴋᴇᴇᴘ ᴜsɪɴɢ ✦ᴄʀɪss ᴀɪ ʟɪᴛᴇ✦ ғʀᴏᴍ ᴄʀɪss ᴠᴇᴠᴏ
 
-*© ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ - ᴍᴅ*
+*© ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ - ᴀɪ*
 
-> ɢɪᴛʜᴜʙ : github.com/XdKing2/LITE-XD`,
+> ɢɪᴛʜᴜʙ : github.com/criss-vevo/CRISS-AI-LITE`,
     // add alive msg here 
 
-    STICKER_NAME: process.env.STICKER_NAME || "ᴍᴀʟᴠɪɴ-xᴅ",
+    STICKER_NAME: process.env.STICKER_NAME || "ᴄʀɪss-ᴀɪ-ʟɪᴛᴇ",
     // type sticker pack name 
 
     CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
@@ -73,16 +73,16 @@ module.exports = {
     CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,💛,💚,💙,💜,🤎,🖤,🤍",
     // choose custom react emojis by yourself 
 
-    DELETE_LINKS: process.env.DELETE_LINKS || "false",
+    DELETE_LINKS: process.env.DELETE_LINKS || "true",
     // automatic delete links without removing member 
 
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "26371475XXXX",
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "255766263739",
     // add your bot owner number
 
-    OWNER_NAME: process.env.OWNER_NAME || "ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ",
+    OWNER_NAME: process.env.OWNER_NAME || "ᴄʀɪss ᴠᴇᴠᴏ",
     // add bot owner name
 
-    DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴋɪɴɢ*",
+    DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʀɪss ᴠᴇᴠᴏ*",
     // add bot owner description  
 
     READ_MESSAGE: process.env.READ_MESSAGE || "false",
@@ -94,7 +94,7 @@ module.exports = {
     ANTI_BAD: process.env.ANTI_BAD || "false",
     // false or true for anti bad words  
 
-    ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
+    ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
     // make anti link true,false for groups 
 
     AUTO_STICKER: process.env.AUTO_STICKER || "false",
@@ -106,7 +106,7 @@ module.exports = {
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
     // make true for always online 
 
-    PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
+    PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
     // make false if want private mode
 
     AUTO_TYPING: process.env.AUTO_TYPING || "false",
@@ -115,7 +115,7 @@ module.exports = {
     READ_CMD: process.env.READ_CMD || "false",
     // true if want mark commands as read  
 
-    DEV: process.env.DEV || "263780166288",
+    DEV: process.env.DEV || "255766263739",
     // replace with your whatsapp number  
 
     ANTI_VV: process.env.ANTI_VV || "true",
@@ -130,18 +130,16 @@ module.exports = {
     version: process.env.version || "0.0.5",
 
     START_MSG: process.env.START_MSG || 
-`*Hᴇʟʟᴏ ᴛʜᴇʀᴇ ʟɪᴛᴇ xᴅ ᴄᴏɴɴᴇᴄᴛᴇᴅ! 👋🏻* 
+`*╭─────────────━┈⊷*
+*│ ᴄʀɪss-ᴀɪ ᴄᴏɴɴᴇᴄᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟ*
+*╰─────────────━┈⊷*
 
-*ᴋᴇᴇᴘ ᴏɴ ᴜsɪɴɢ ᴍᴀʟᴠɪɴ ᴍᴏᴅs🚩* 
+*╭─────────────━┈⊷*
+*│ᴄʀɪss ᴀɪ ɪs ᴏɴʟɪɴᴇ*
+*│ᴘʀᴇғɪx : [${config.PREFIX}*]
+*│ᴍᴏᴅᴇ :[ ${config.MODE}*]
+*│ᴏᴡɴᴇʀ: ᴄʀɪss ᴠᴇᴠᴏ*
+*╰─────────────━┈⊷*
 
-> sᴜʙsᴄʀɪʙᴇ ʏᴛ ᴄʜᴀɴɴᴇʟ ғᴏʀ ᴛᴜᴛᴏʀɪᴀʟs
-https://youtube.com/@malvintech2
-
-- *ʏᴏᴜʀ ʙᴏᴛ ᴘʀᴇғɪx: ➡️[ . ]*
-> - ʏᴏᴜ ᴄᴀɴ ᴄʜᴀɴɢᴇ ᴜʀ ᴘʀᴇғɪx ᴜsɪɴɢ ᴛʜᴇ .ᴘʀᴇғɪx ᴄᴏᴍᴍᴀɴᴅ
-
-> ᴅᴏɴᴛ ғᴏʀɢᴇᴛ ᴛᴏ sʜᴀʀᴇ, sᴛᴀʀ & ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ ⬇️ 
-https://github.com/XdKing2/LITE-XD
-
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴋɪɴɢ 🇿🇼`
+*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟᴏʀᴅ ᴄʀɪss ᴠᴇᴠᴏ*`
 };
