@@ -130,7 +130,7 @@ async function connectToWA() {
 *╭─────────────━┈⊷*
 *│ᴄʀɪss ᴀɪ ʟɪᴛᴇ ɪs ᴏɴʟɪɴᴇ*
 *│ᴘʀᴇғɪx : [${config.PREFIX}*]
-*│ᴍᴏᴅᴇ :[ ${config.MODE}*]
+*│ᴍᴏᴅᴇ : [${config.MODE}*]
 *│ᴏᴡɴᴇʀ: ᴄʀɪss ᴠᴇᴠᴏ*
 *╰─────────────━┈⊷*
 
