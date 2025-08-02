@@ -42,7 +42,7 @@
     "AUTO_STATUS_SEEN": {
       "description": "Make it true for automatic status seen.",
       "required": false,
-      "value": "true
+      "value": "true'
      },
    
     "AUTO_STATUS_REACT": {
