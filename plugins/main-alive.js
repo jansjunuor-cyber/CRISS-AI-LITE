@@ -28,7 +28,7 @@ lite({
 ┃ 🖥️ *Host:* ${os.hostname()}
 ┃ ⏱️ *Uptime:* ${uptime}
 ╰━━━━━━━━━━━━━━⬣
-📝 *${config.DESCRIPTION}*
+📝 ${config.DESCRIPTION}
         `.trim();
 
         await conn.sendMessage(from, {
