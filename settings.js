@@ -7,12 +7,12 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
     SESSION_ID: process.env.SESSION_ID || "",
-    // add your Session Id make sure it starts with lite~
+    // add your Session Id make sure it starts with CRISS-AI-LITE~
 
     PREFIX: process.env.PREFIX || ".",
     // add your prefix for bot
 
-    BOT_NAME: process.env.BOT_NAME || "ʟɪᴛᴇ-xᴅ",
+    BOT_NAME: process.env.BOT_NAME || "CRISS-AI-LITE",
     // add bot name here for menu
 
     MODE: process.env.MODE || "public",
@@ -20,7 +20,7 @@ module.exports = {
 
     LINK_WHITELIST: "youtube.com,github.com",
 
-    LINK_WARN_LIMIT: 3, // Number of warnings before action
+    LINK_WARN_LIMIT: 2, // Number of warnings before action
 
     LINK_ACTION: "kick", // "kick", "mute", or "none"
 
@@ -33,10 +33,10 @@ module.exports = {
     AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
     // make true if you want auto reply on status 
 
-    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY MALVIN XD 😆*",
+    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY CRISS AI LETE 😆*",
     // set the auto reply message on status reply  
 
-    WELCOME: process.env.WELCOME || "true",
+    WELCOME: process.env.WELCOME || "false",
     // true if want welcome and goodbye msg in groups 
 
     ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
