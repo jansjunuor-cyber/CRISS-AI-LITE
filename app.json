@@ -39,6 +39,17 @@
       "required": true,
       "value": "255766263739"
     },
+    "AUTO_STATUS_SEEN": {
+      "description": "Make it true for automatic status seen.",
+      "required": false,
+      "value": "true
+     },
+   
+    "AUTO_STATUS_REACT": {
+      "description": "make it true for automatic status reaction or like.",
+      "required": false,
+      "value": "true"
+    },
     
     "PRESENCE": {
       "description": "Put online/typing/recording/unavailable",
